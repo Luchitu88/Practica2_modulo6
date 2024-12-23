@@ -1,0 +1,60 @@
+{
+  "vehiculos": [
+    {
+      "id": "10b0",
+      "marca": "Mitsubishi",
+      "modelo": "Lancer Evolution",
+      "anho": 2010
+    },
+    {
+      "id": "2a15",
+      "marca": "Ford",
+      "modelo": "Explorer",
+      "anho": 2024
+    },
+    {
+      "id": "915a",
+      "marca": "Mazda ",
+      "modelo": "CX-5",
+      "anho": 2023
+    },
+    {
+      "id": "9558",
+      "marca": "Audi",
+      "modelo": "A4",
+      "anho": 2004
+    },
+    {
+      "id": "acb4",
+      "marca": "Mercedes",
+      "modelo": "GLM",
+      "anho": 2005
+    }
+  ],
+  "servicios": [
+    {
+      "id": "8ea6",
+      "vehiculoId": "10b0",
+      "descripcion": "Cambio de llantas",
+      "precio": 3500
+    },
+    {
+      "id": "01a4",
+      "vehiculoId": "2a15",
+      "descripcion": "Cambio de amortiguadores",
+      "precio": 850
+    },
+    {
+      "id": "ae9f",
+      "vehiculoId": "9558",
+      "descripcion": "Cambio de aceite",
+      "precio": 400
+    },
+    {
+      "id": "0a02",
+      "vehiculoId": "acb4",
+      "descripcion": "Lavado completo",
+      "precio": 100
+    }
+  ]
+}
