@@ -8,7 +8,7 @@ npm install
 npm install axios
 ```
 ```
-npm istall vue-router@4
+npm install vue-router@4
 ```
 ```
 npm install -g json-server
