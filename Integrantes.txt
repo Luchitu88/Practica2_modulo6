@@ -9,7 +9,7 @@ Pasos para iniciar el proyecto
 
 1) npm install
 2) npm install axios
-3) npm istall vue-router@4
+3) npm install vue-router@4
 4) npm install -g json-server
 5) npm run serve
 6) json-server --watch db.json --port 3000
