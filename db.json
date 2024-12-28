@@ -4,57 +4,182 @@
       "id": "10b0",
       "marca": "Mitsubishi",
       "modelo": "Lancer Evolution",
-      "anho": 2010
+      "color": "Rojo",
+      "anho": 2010,
+      "placa": "ABC-001",
+      "clienteId": "1"
     },
     {
       "id": "2a15",
       "marca": "Ford",
       "modelo": "Explorer",
-      "anho": 2024
+      "color": "Blanco",
+      "anho": 2024,
+      "placa": "XYZ-010",
+      "clienteId": "2"
     },
     {
       "id": "915a",
       "marca": "Mazda ",
       "modelo": "CX-5",
-      "anho": 2023
+      "color": "Azul",
+      "anho": 2023,
+      "placa": "AAE-001",
+      "clienteId": "3"
     },
     {
       "id": "9558",
       "marca": "Audi",
-      "modelo": "A4",
-      "anho": 2004
+      "modelo": "A46",
+      "color": "Blanco",
+      "anho": 2004,
+      "placa": "GFJ-100",
+      "clienteId": "4"
     },
     {
       "id": "acb4",
       "marca": "Mercedes",
       "modelo": "GLM",
-      "anho": 2005
+      "color": "Blanco",
+      "anho": 2005,
+      "placa": "YTR-520",
+      "clienteId": "4"
+    },
+    {
+      "id": "6bc1",
+      "marca": "Toyota",
+      "modelo": "Land Cruiser 4x4",
+      "color": "Plata",
+      "anho": 2020,
+      "placa": "WQR-985",
+      "clienteId": "5"
+    },
+    {
+      "clienteId": "e7d2",
+      "marca": "Toyota",
+      "modelo": "Rush",
+      "anho": 2019,
+      "color": "Rojo",
+      "placa": "LKS-5263",
+      "id": "W1srtWL"
+    },
+    {
+      "marca": "Audi",
+      "modelo": "A46",
+      "anho": 2010,
+      "color": "Azul",
+      "placa": "UYI-8569",
+      "clienteId": "prg-x7o",
+      "id": "_LRsH8t"
     }
   ],
   "servicios": [
     {
       "id": "8ea6",
       "vehiculoId": "10b0",
+      "clienteId": "1",
       "descripcion": "Cambio de llantas",
       "precio": 3500
     },
     {
       "id": "01a4",
       "vehiculoId": "2a15",
+      "clienteId": "2",
       "descripcion": "Cambio de amortiguadores",
       "precio": 850
     },
     {
       "id": "ae9f",
       "vehiculoId": "9558",
+      "clienteId": "4",
       "descripcion": "Cambio de aceite",
       "precio": 400
     },
     {
       "id": "0a02",
       "vehiculoId": "acb4",
+      "clienteId": "4",
       "descripcion": "Lavado completo",
       "precio": 100
+    },
+    {
+      "vehiculoId": "9558",
+      "clienteId": "4",
+      "descripcion": "cambio de retrovisor",
+      "precio": 1200,
+      "id": "dW_ERfY"
+    },
+    {
+      "vehiculoId": "W1srtWL",
+      "clienteId": "e7d2",
+      "descripcion": "Pulido y encerado",
+      "precio": 155,
+      "id": "jgW0CqG"
+    },
+    {
+      "vehiculoId": "W1srtWL",
+      "clienteId": "e7d2",
+      "descripcion": "Lavado de motor",
+      "precio": 1500,
+      "id": "5Hdkk0s"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "1",
+      "nombre": "Juan Perez",
+      "direccion": "Calle 123",
+      "telefono": "1234567890",
+      "email": "juanperez@example.com"
+    },
+    {
+      "id": "2",
+      "nombre": "Eduardo Montero",
+      "direccion": "Calle Las Dalias",
+      "telefono": "1234567890",
+      "email": "eduardomontero@example.com"
+    },
+    {
+      "id": "3",
+      "nombre": "Hector Arce",
+      "direccion": "Plaza Murillo",
+      "telefono": "77789780",
+      "email": "hectorarce@example.com"
+    },
+    {
+      "id": "4",
+      "nombre": "Maria de las Heras",
+      "direccion": "Av. Mariscal Santa Cruz",
+      "telefono": "895689",
+      "email": "mariadelasheras@example.com"
+    },
+    {
+      "id": "e7d2",
+      "nombre": "Silvia Vigabriel",
+      "direccion": "BARRIO GRAFICO CALLE 1 NO. 50",
+      "telefono": 2211804,
+      "email": "silvavigabriel@example.com"
+    },
+    {
+      "id": "5",
+      "nombre": "Maria Bonita",
+      "direccion": "Plaza Avaroa No. 34",
+      "telefono": "78965236",
+      "email": "mariabonita@example.com"
+    },
+    {
+      "id": "MhcH530",
+      "nombre": "Rolando Mendoza",
+      "direccion": "Perez Velasco No.25",
+      "telefono": 8888888,
+      "email": "rolandomedoza@example.com"
+    },
+    {
+      "nombre": "Julio Iglesias",
+      "direccion": "Av. España No.105",
+      "telefono": 7566565,
+      "email": "julioiglesias@example.com",
+      "id": "prg-x7o"
     }
   ]
 }

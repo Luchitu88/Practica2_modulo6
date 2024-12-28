@@ -4,6 +4,8 @@ import './registerServiceWorker'
 import router from './router'
 import axios from 'axios';
 
+import './assets/styles/styles.scss'
+
 createApp(App).use(router).mount('#app')
 
 axios.get('http://localhost:3000/vehiculos')
